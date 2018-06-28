@@ -7,6 +7,7 @@
     <title>Flask Plotlyjs Example</title>
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -24,7 +25,8 @@
         </div>
 
         <div id="map"></div>
-        <script type="text/javascript" src="logic.js"></script>
+        <!-- <script type="text/javascript" src="logic.js"></script> -->
+        <script type="text/javascript" src="{{ url_for('static', filename='logic.js') }}"></script>
 
     <br></br>
 
