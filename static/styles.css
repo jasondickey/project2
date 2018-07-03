@@ -32,3 +32,18 @@ html{height:90%;}
     margin-right: 8px;
     opacity: 0.7;
 }
+
+table {
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    text-align: left;
+    padding: 16px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}

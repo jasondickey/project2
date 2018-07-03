@@ -51,7 +51,7 @@
                     <div class="findings">
 						<b>Fast Food Restaurants</b><br>
 						Most: DC, Hawaii, and New York<br>
-						Least:Alaska, Wisconsin, and Iowa<br>
+						Least: Alaska, Wisconsin, and Iowa<br>
 						<br>
 
 						<b>Obesity</b><br>
@@ -60,7 +60,7 @@
 						<br>
 						
 						<b>Correlation</b><br>
-						We found no correlation between Obesity Rates and the # of Fast Food Restaurants with an r score of -0.002<br>
+						We found no correlation between Obesity Rates and the number of Fast Food Restaurants with an R score of -0.002<br>
 						<br>
 
 						<b>Next Steps</b><br>
@@ -96,33 +96,488 @@
                 	<div class="panel panel-primary">              
                     
                     	<div class="panel-heading">
-                        	<h3 class="panel-title">Sample MetaData</h3>
+                        	<h3 class="panel-title">Analysis MetaData</h3>
 						</div>  
    
                         <table id="summary-table" class="table table-striped table-inverse">
+						
                             <thead>
                                 <tr>
 									<th>State</th>
-									<th>Population</th>
-									<th>% Obese</th>
+									<th>Total Population</th>
+									<th>Obese Population</th>
 									<th>Obesity Rank</th>
-									<th>Fast Food Restaurants</th>
-									<th>Fast Food Restaurants Rank</th>
+									<th>Number of Fast Food Restaurants</th>
 									<th>Fast Food Restaurants per Capita</th>
+									<th>Fast Food Restaurants per Capita Rank</th>
+									
                                 </tr>
 							</thead>
 							<tbody>
 								<tr>
-									<td>AL</td>
-									<td>200000</td>
-									<td>30%</td>
-									<td>4</td>
-									<td>400</td>
+									<td>Alabama</td>
+									<td>4780127</td>
+									<td>6526</td>
+									<td>27</td>
+									<td>3561</td>
+									<td>0.745</td>
+									<td>19</td>
+								</tr>
+								<tr>
+									<td>Alaska</td>
+									<td>710249</td>
+									<td>2739</td>
+									<td>51</td>
+									<td>429</td>
+									<td>0.604</td>
+									<td>51</td>
+								</tr>
+								<tr>
+									<td>Arizona</td>
+									<td>6392307</td>
+									<td>10033</td>
+									<td>16</td>
+									<td>4211</td>
+									<td>0.659</td>
+									<td>44</td>
+								</tr>
+								<tr>
+									<td>Arkansas</td>
+									<td>2915958</td>
+									<td>4859</td>
+									<td>44</td>
+									<td>1939</td>
+									<td>0.665</td>
+									<td>42</td>
+								</tr>
+								<tr>
+									<td>California</td>
+									<td>37252895</td>
+									<td>10352</td>
+									<td>13</td>
+									<td>28292</td>
+									<td>0.759</td>
+									<td>15</td>
+								</tr>
+								<tr>
+									<td>Colorado</td>
+									<td>5029324</td>
+									<td>13637</td>
+									<td>6</td>
+									<td>3877</td>
+									<td>0.771</td>
+									<td>14</td>
+								</tr>
+								<tr>
+									<td>Connecticut</td>
+									<td>3574118</td>
+									<td>9960</td>
+									<td>18</td>
+									<td>2429</td>
+									<td>0.680</td>
+									<td>38</td>
+								</tr>
+								<tr>
+									<td>Delaware</td>
+									<td>897936</td>
+									<td>3702</td>
+									<td>49</td>
+									<td>615</td>
+									<td>0.685</td>
+									<td>36</td>
+								</tr>
+								<tr>
+									<td>District of Columbia</td>
+									<td>601767</td>
+									<td>3479</td>
+									<td>50</td>
+									<td>839</td>
+									<td>1.394</td>
+									<td>1</td>
+								</tr>
+								<tr>
+									<td>Florida</td>
+									<td>18804623</td>
+									<td>33186</td>
+									<td>1</td>
+									<td>12156</td>
+									<td>0.646</td>
+									<td>45</td>
+								</tr>
+								<tr>
+									<td>Georgia</td>
+									<td>9688681</td>
+									<td>4884</td>
+									<td>42</td>
+									<td>7702</td>
+									<td>0.795</td>
+									<td>6</td>
+								</tr>
+								<tr>
+									<td>Hawaii</td>
+									<td>1360301</td>
+									<td>7659</td>
+									<td>22</td>
+									<td>1249</td>
+									<td>0.918</td>
+									<td>2</td>
+								</tr>
+								<tr>
+									<td>Idaho</td>
+									<td>1567652</td>
+									<td>4880</td>
 									<td>43</td>
-									<td>0.3</td>
+									<td>1041</td>
+									<td>0.664</td>
+									<td>43</td>
+								</tr>
+								<tr>
+									<td>Illinois</td>
+									<td>12831549</td>
+									<td>4518</td>
+									<td>46</td>
+									<td>9643</td>
+									<td>0.752</td>
+									<td>17</td>
+								</tr>
+								<tr>
+									<td>Indiana</td>
+									<td>6484229</td>
+									<td>10319</td>
+									<td>14</td>
+									<td>4753</td>
+									<td>0.733</td>
+									<td>23</td>
+								</tr>
+								<tr>
+									<td>Iowa</td>
+									<td>3046869</td>
+									<td>6645</td>
+									<td>25</td>
+									<td>1918</td>
+									<td>0.629</td>
+									<td>49</td>
+								</tr>
+								<tr>
+									<td>Kansas</td>
+									<td>2853132</td>
+									<td>10947</td>
+									<td>10</td>
+									<td>2001</td>
+									<td>0.701</td>
+									<td>33</td>
+								</tr>
+								<tr>
+									<td>Kentucky</td>
+									<td>4339349</td>
+									<td>9583</td>
+									<td>19</td>
+									<td>3133</td>
+									<td>0.722</td>
+									<td>26</td>
+								</tr>
+								<tr>
+									<td>Louisiana</td>
+									<td>4533479</td>
+									<td>5246</td>
+									<td>38</td>
+									<td>3268</td>
+									<td>0.721</td>
+									<td>27</td>
+								</tr>
+								<tr>
+									<td>Maine</td>
+									<td>1328361</td>
+									<td>10004</td>
+									<td>17</td>
+									<td>931</td>
+									<td>0.701</td>
+									<td>34</td>
+								</tr>
+								<tr>
+									<td>Maryland</td>
+									<td>5773785</td>
+									<td>18448</td>
+									<td>3</td>
+									<td>4896</td>
+									<td>0.848</td>
+									<td>4</td>
+								</tr>
+								<tr>
+									<td>Massachusetts</td>
+									<td>6547817</td>
+									<td>8392</td>
+									<td>20</td>
+									<td>5080</td>
+									<td>0.776</td>
+									<td>10</td>
+								</tr>
+								<tr>
+									<td>Michigan</td>
+									<td>9884129</td>
+									<td>12015</td>
+									<td>8</td>
+									<td>6656</td>
+									<td>0.673</td>
+									<td>41</td>
+								</tr>
+								<tr>
+									<td>Minnesota</td>
+									<td>5303925</td>
+									<td>16798</td>
+									<td>4</td>
+									<td>3419</td>
+									<td>0.645</td>
+									<td>46</td>
+								</tr>
+								<tr>
+									<td>Mississippi</td>
+									<td>2968103</td>
+									<td>5126</td>
+									<td>39</td>
+									<td>2112</td>
+									<td>0.712</td>
+									<td>29</td>
+								</tr>
+								<tr>
+									<td>Missouri</td>
+									<td>5988927</td>
+									<td>7115</td>
+									<td>23</td>
+									<td>4041</td>
+									<td>0.675</td>
+									<td>40</td>
+								</tr>
+								<tr>
+									<td>Montana</td>
+									<td>989417</td>
+									<td>5483</td>
+									<td>35</td>
+									<td>703</td>
+									<td>0.711</td>
+									<td>30</td>
+								</tr>
+								<tr>
+									<td>Nebraska</td>
+									<td>1826341</td>
+									<td>14173</td>
+									<td>5</td>
+									<td>1346</td>
+									<td>0.737</td>
+									<td>21</td>
+								</tr>
+								<tr>
+									<td>Nevada</td>
+									<td>2700691</td>
+									<td>3981</td>
+									<td>48</td>
+									<td>2250</td>
+									<td>0.833</td>
+									<td>5</td>
+								</tr>
+								<tr>
+									<td>New Hampshire</td>
+									<td>1316466</td>
+									<td>5888</td>
+									<td>32</td>
+									<td>1017</td>
+									<td>0.773</td>
+									<td>12</td>
+								</tr>
+								<tr>
+									<td>New Jersey</td>
+									<td>8791936</td>
+									<td>6810</td>
+									<td>24</td>
+									<td>6655</td>
+									<td>0.757</td>
+									<td>16</td>
+								</tr>
+								<tr>
+									<td>New Mexico</td>
+									<td>2059192</td>
+									<td>5531</td>
+									<td>34</td>
+									<td>1449</td>
+									<td>0.704</td>
+									<td>31</td>
+								</tr>
+								<tr>
+									<td>New York</td>
+									<td>19378087</td>
+									<td>31269</td>
+									<td>2</td>
+									<td>16721</td>
+									<td>0.863</td>
+									<td>3</td>
+								</tr>
+								<tr>
+									<td>North Carolina</td>
+									<td>9535692</td>
+									<td>5984</td>
+									<td>31</td>
+									<td>7355</td>
+									<td>0.771</td>
+									<td>13</td>
+								</tr>
+								<tr>
+									<td>North Dakota</td>
+									<td>672591</td>
+									<td>5348</td>
+									<td>37</td>
+									<td>456</td>
+									<td>0.678</td>
+									<td>39</td>
+								</tr>
+								<tr>
+									<td>Ohio</td>
+									<td>11536725</td>
+									<td>11455</td>
+									<td>9</td>
+									<td>9094</td>
+									<td>0.788</td>
+									<td>7</td>
+								</tr>
+								<tr>
+									<td>Oklahoma</td>
+									<td>3751616</td>
+									<td>6449</td>
+									<td>28</td>
+									<td>2764</td>
+									<td>0.737</td>
+									<td>22</td>
+								</tr>
+								<tr>
+									<td>Oregon</td>
+									<td>3831073</td>
+									<td>5000</td>
+									<td>40</td>
+									<td>2767</td>
+									<td>0.722</td>
+									<td>25</td>
+								</tr>
+								<tr>
+									<td>Pennsylvania</td>
+									<td>12702887</td>
+									<td>6367</td>
+									<td>29</td>
+									<td>8910</td>
+									<td>0.701</td>
+									<td>32</td>
+								</tr>
+								<tr>
+									<td>Rhode Island</td>
+									<td>1052931</td>
+									<td>4936</td>
+									<td>41</td>
+									<td>821</td>
+									<td>0.780</td>
+									<td>9</td>
+								</tr>
+								<tr>
+									<td>South Carolina</td>
+									<td>4625401</td>
+									<td>10503</td>
+									<td>12</td>
+									<td>3411</td>
+									<td>0.737</td>
+									<td>20</td>
+								</tr>
+								<tr>
+									<td>South Dakota</td>
+									<td>814191</td>
+									<td>5371</td>
+									<td>36</td>
+									<td>521</td>
+									<td>0.640</td>
+									<td>47</td>
+								</tr>
+								<tr>
+									<td>Tennessee</td>
+									<td>6346275</td>
+									<td>5657</td>
+									<td>33</td>
+									<td>4645</td>
+									<td>0.732</td>
+									<td>24</td>
+								</tr>
+								<tr>
+									<td>Texas</td>
+									<td>25146105</td>
+									<td>10789</td>
+									<td>11</td>
+									<td>18804</td>
+									<td>0.748</td>
+									<td>18</td>
+								</tr>
+								<tr>
+									<td>Utah</td>
+									<td>2763888</td>
+									<td>10043</td>
+									<td>15</td>
+									<td>2138</td>
+									<td>0.774</td>
+									<td>11</td>
+								</tr>
+								<tr>
+									<td>Vermont</td>
+									<td>625745</td>
+									<td>6071</td>
+									<td>30</td>
+									<td>397</td>
+									<td>0.634</td>
+									<td>48</td>
+								</tr>
+								<tr>
+									<td>Virginia</td>
+									<td>8001045</td>
+									<td>8293</td>
+									<td>21</td>
+									<td>6248</td>
+									<td>0.781</td>
+									<td>8</td>
+								</tr>
+								<tr>
+									<td>Washington</td>
+									<td>6724543</td>
+									<td>12990</td>
+									<td>7</td>
+									<td>4828</td>
+									<td>0.718</td>
+									<td>28</td>
+								</tr>
+								<tr>
+									<td>West Virginia</td>
+									<td>1853011</td>
+									<td>6635</td>
+									<td>26</td>
+									<td>1261</td>
+									<td>0.681</td>
+									<td>37</td>
+								</tr>
+								<tr>
+									<td>Wisconsin</td>
+									<td>5687289</td>
+									<td>4793</td>
+									<td>45</td>
+									<td>3534</td>
+									<td>0.621</td>
+									<td>50</td>
+								</tr>
+								<tr>
+									<td>Wyoming</td>
+									<td>563767</td>
+									<td>4200</td>
+									<td>47</td>
+									<td>391</td>
+									<td>0.694</td>
+									<td>35</td>
 								</tr>
 							</tbody>
 						</table>
+						<script>
+						
+						</script>
 					</div>
 				</div>
 			</div>
